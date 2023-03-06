@@ -125,7 +125,6 @@ btnClear.addEventListener('click', () => {
   localStorage.setItem('tasks', JSON.stringify(tasks));
 });
 
-
 displaytasks();
 
 // document.addEventListener('DOMContentLoaded', displaytasks);
